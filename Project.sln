@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMail.Api.Web", "src\SendMail\Api\Web\SendMail.Api.Web.csproj", "{8C96D81B-3A35-4EFA-B3A5-8541E5E61304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMail.Api.Lib", "src\SendMail\Api\Lib\SendMail.Api.Lib.csproj", "{AD66E8BA-A67C-4F7A-BEF9-BDC31F544C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C96D81B-3A35-4EFA-B3A5-8541E5E61304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C96D81B-3A35-4EFA-B3A5-8541E5E61304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C96D81B-3A35-4EFA-B3A5-8541E5E61304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C96D81B-3A35-4EFA-B3A5-8541E5E61304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD66E8BA-A67C-4F7A-BEF9-BDC31F544C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD66E8BA-A67C-4F7A-BEF9-BDC31F544C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD66E8BA-A67C-4F7A-BEF9-BDC31F544C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD66E8BA-A67C-4F7A-BEF9-BDC31F544C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08C000FA-3C4D-4008-BFD0-62C307C2ED8D}
+	EndGlobalSection
+EndGlobal
